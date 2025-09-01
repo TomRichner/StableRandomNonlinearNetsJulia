@@ -1,0 +1,30 @@
+\documentclass{article}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\[
+\boldsymbol{r}(t) =
+\left[
+\boldsymbol{u}_d(t) - c_{\text{SFA}} \sum_k \boldsymbol{a}_k(t)
+\right]_+
+\]
+
+\[
+\frac{d \boldsymbol{a}_k}{dt}
+= \frac{-\boldsymbol{a}_k + \boldsymbol{r}}{\boldsymbol{\tau}_{a_k}}
+\]
+
+\[
+\frac{d \boldsymbol{u}_d}{dt}
+= \frac{-\boldsymbol{u}_d + \boldsymbol{u}_{\text{ex}} + M \left( \boldsymbol{b} \circ \boldsymbol{r} \right)}{\tau_d}
+\]
+
+\[
+\frac{d \boldsymbol{b}}{dt}
+= \frac{1 - \boldsymbol{b}}{\tau_b} - \frac{\boldsymbol{b} \circ \boldsymbol{r}}{\tau_{\text{STD}}}
+\]
+
+\end{document}
