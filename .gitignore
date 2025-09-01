@@ -1,0 +1,76 @@
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+deps/build.log
+deps/downloads/
+docs/build/
+docs/site/
+
+# JuliaFormatter
+.JuliaFormatter.toml
+
+# Julia REPL history
+.julia_history
+
+# VS Code / Cursor
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Output files
+*.png
+*.pdf
+*.svg
+*.eps
+*.html
+results/
+output/
+plots/
+figures/
+
+# Data files (uncomment if you don't want to track data)
+# *.csv
+# *.h5
+# *.hdf5
+# *.mat
+# *.jld
+# *.jld2
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out
+
+# Build artifacts
+deps/build.log
+deps/deps.jl
